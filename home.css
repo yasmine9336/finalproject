@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-
+/* Header Styles */
 header {
     background: #333;
     color: #fff;
@@ -54,6 +54,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* Hero Section Styles */
 .hero {
     background: url('https://i.pinimg.com/564x/a9/42/ec/a942ec5b4799cbeb92909e4b1c0d1202.jpg') no-repeat center center/cover;
     color: #fff;
@@ -73,6 +74,7 @@ header nav ul li a {
     font-size: 1.2rem;
 }
 
+/* Featured Products Section Styles */
 .featured-products {
     padding: 2rem;
     text-align: center;
@@ -133,6 +135,7 @@ header nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* About Us Teaser Section Styles */
 .about-teaser {
     background: #f4f4f4;
     padding: 2rem;
@@ -152,6 +155,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* Latest Blog Posts Section Styles */
 .latest-blog-posts {
     padding: 2rem;
     text-align: center;
@@ -246,6 +250,7 @@ header nav ul li a {
     cursor: pointer;
 }
 
+/* Footer Styles */
 footer {
     background: #333;
     color: #fff;
@@ -266,6 +271,8 @@ footer {
     text-decoration: none;
     margin: 0 0.5rem;
 }
+
+/* Load More Button Styles */
 #load-more {
     margin: 2rem auto;
     padding: 0.75rem 1.5rem;

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const productGrid = document.getElementById('product-grid');
     const loadMoreButton = document.getElementById('load-more');
 
-    const additionalProducts = [
+    const additionalProducts = [ // Array of additional products to load dynamically
         {
             imgSrc: 'handcraft.jpg',
             title: 'Handcrafted Bracelet',
@@ -50,6 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
             productGrid.appendChild(productDiv);
         }
 
-        loadMoreButton.style.display = 'none';
+        loadMoreButton.style.display = 'none'; // Hide load more button after products are loaded
     });
 });

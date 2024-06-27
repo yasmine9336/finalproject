@@ -76,6 +76,7 @@ p {
     color: #666;
 }
 
+/* Styles for the team grid layout */
 .team-grid {
     display: flex;
     justify-content: center;
